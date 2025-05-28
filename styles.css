@@ -1,16 +1,12 @@
-.holder{
-	display:flex;
-	flex-direction:row-reverse;
-	flex-direction: row;
-	flex-wrap:wrap;
-	height:20vh;
-	padding:20px;
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .items{
 	height:40px
-	columns: white;
 	font-size:1.2em;
-	text-align:center;
 	line-height:100px;
 	flex-basis:100px;
 	align-self:auto;
